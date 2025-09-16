@@ -1,0 +1,20 @@
+{
+  "name": "terminal-javascript-command",
+  "description": "Example of building and using a JavaScript command in the JupyterLite terminal.",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "@jupyterlite/cockle": "^1.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "esbuild": "^0.25.9",
+    "rollup": "^4.50.1",
+    "ts-loader": "^9.5.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.2"
+  }
+}

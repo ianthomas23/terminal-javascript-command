@@ -1,0 +1,10 @@
+lib/
+node_modules/
+.rollup.cache/
+package-lock.json
+tsconfig.tsbuildinfo
+
+deploy/.jupyterlite.doit.db
+deploy/cockle-config.json
+deploy/cockle_wasm_env/
+deploy/dist

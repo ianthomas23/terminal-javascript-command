@@ -1,0 +1,7 @@
+name: deploy-env
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlite-terminal
+  - micromamba
+  - nodejs
