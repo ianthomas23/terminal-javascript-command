@@ -4,7 +4,7 @@ An example of a [cockle](https://github.com/jupyterlite/cockle) JavaScript comma
 build and deploy it into a [terminal](https://github.com/jupyterlite/terminal) in a JupyterLite
 deployment. The same command can also be used in a `cockle` deployment outside of JupyterLite.
 
-This JavaScript command runs in the `cockle` WebWorker and has direct access to the [Emscripten
+This JavaScript command runs in the `cockle` Web Worker and has direct access to the [Emscripten
 file system](https://emscripten.org/docs/api_reference/Filesystem-API.html). For an example of a
 TypeScript/JavaScript command that runs in the main UI thread without direct access to the
 Emscripten file system see
@@ -27,7 +27,7 @@ npm run build
 The source code for the command is in `src/my-cmd.ts` and the output JavaScript file built using
 `rollup` is `lib/my-cmd.js`.
 
-## To use
+## Use
 
 To use the built `my-cmd.js` in a `cockle` or `terminal` deployment, create or modify the
 `cockle-config-in.json` file in the root directory of the deployment to contain JSON similar to:
@@ -47,7 +47,7 @@ Here the `"local_directory"` is a relative or absolute path to the directory con
 `my-cmd.js`, and `"wasm": false` indicates that the command is a pure JavaScript command rather than
 the default WebAssembly command.
 
-## Example deployment
+## Example deployment
 
 The `deploy` directory contains files to create an example JupyterLite deployment.
 
