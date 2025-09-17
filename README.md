@@ -8,7 +8,7 @@ This JavaScript command runs in the `cockle` Web Worker and has direct access to
 file system](https://emscripten.org/docs/api_reference/Filesystem-API.html). For an example of a
 TypeScript/JavaScript command that runs in the main UI thread without direct access to the
 Emscripten file system see
-[terminal-external-command](https://github.com/ianthomas/terminal-external-command) instead.
+[terminal-external-command](https://github.com/ianthomas23/terminal-external-command) instead.
 
 ## Build
 
