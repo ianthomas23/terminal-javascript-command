@@ -3,6 +3,7 @@
     "my-cmd": {
       "local_directory": "../lib",
       "wasm": false
-    }
+    },
+    "vim": {}
   }
 }
